@@ -4,7 +4,6 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-![]()
 I completed my Bachelor of Science in Computer Science from The George Washington University in Spring 2015. While at GWU, I was an active member of the community where I spent a large amount of time making sure that other students felt welcome and wouldn’t fall behind. I also worked through the ACM student chapter as president to make the CS department’s community more social between faculty and students. 
 
 During my undergraduate studies, I performed research with [Tim Wood](http://faculty.cs.gwu.edu/~timwood/) in the [Cloud Systems Lab](https://cloudlab.seas.gwu.edu) where I worked on topics related to Virtualization and Security. I also worked for The School of Engineering and Applied Sciences Computing Facility where I was a Jr. Information Security and Compliance Analyst. I helped respond to security incidents on the network and assisted with system administration tasks.
