@@ -1,0 +1,26 @@
+---
+layout: page
+title: Teaching
+---
+
+<section class="description">
+    <h1>Teaching</h1>
+    <p>From time to time, I work part time as an adjunct faculty at The George Washington University in their 
+        Computer Science department. I enjoy working with students and having the ability to provide an industry 
+        perspective in their course work, something I never really had in university. 
+        My goal is really to prepare students to enter the workforce as strong software engineers and team members. 
+        A few of the courses I have taught are found below:
+    </p>
+</section>
+<section class="list">
+    {% for post in site.posts %}
+        {% if post.courses %}
+            <div class="item {% if post.star %}star{% endif %}">
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    <!-- <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside> -->
+                    <h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
